@@ -75,3 +75,21 @@ which -s subl && export EDITOR="subl --wait"
 # Useful aliases
 
 alias e=subl
+
+alias ga='git add'
+alias gp='git push'
+alias gpo='git push origin'
+alias gpom='git pull origin master'
+alias gphm='git push heroku master'
+alias gl='git log'
+alias gst='git status'
+alias gd='git diff'
+alias gm='git commit -m'
+alias gma='git commit -am'
+alias gca='git commit -a'
+alias gb='git branch'
+alias gc='git checkout'
+alias gra='git remote add'
+alias grr='git remote rm'
+alias gl='git pull'
+alias gcl='git clone'
