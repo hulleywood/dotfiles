@@ -2,7 +2,7 @@
 alias ls='ls -Gh'
 
 # Git aliases
-alias grep="git grep --color"
+alias grep="grep --color"
 alias gst="git status"
 alias gd="git diff --color"
 alias gcb="git checkout -b"
