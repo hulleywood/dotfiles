@@ -31,3 +31,5 @@
 
   # Edit the last commit
   amend= commit --verbose --amend
+[push]
+	default = simple
