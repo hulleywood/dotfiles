@@ -44,6 +44,6 @@ if [ -f ~/.bashrc ]; then
    source ~/.bashrc
 fi
 
-if [ -e ~/.bash_profile_secret ]; then
-  source ~/.bash_profile_secret
+if [ -e ~/.bash_secrets ]; then
+  source ~/.bash_secrets
 fi
