@@ -16,6 +16,9 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 # Path for RBENV
 test -d $HOME/.rbenv/ && PATH="$HOME/.rbenv/bin:$PATH"
 
+# Path for RVM
+test -d $HOME/.rvm/ && PATH="$HOME/.rvm/bin:$PATH"
+
 # Path for brew
 test -d /usr/local/bin && export PATH="/usr/local/bin:/usr/local/sbin:~/bin:$PATH"
 
