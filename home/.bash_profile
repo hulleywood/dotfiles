@@ -43,3 +43,7 @@ fi
 if [ -e ~/.bash_secrets ]; then
   source ~/.bash_secrets
 fi
+
+# added by Anaconda3 4.4.0 installer
+export PATH="/Users/jameshulley/anaconda/bin:$PATH"
+export PATH="/usr/local/opt/openssl/bin:$PATH"
