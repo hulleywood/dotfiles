@@ -18,6 +18,9 @@ test -d $HOME/.rbenv/ && PATH="$HOME/.rbenv/bin:$PATH"
 
 # Path for RVM
 test -d $HOME/.rvm/ && PATH="$HOME/.rvm/bin:$PATH"
+if test -f ~/.rvm/scripts/rvm; then
+  [ "$(type -t rvm)" = "function" ] || source ~/.rvm/scripts/rvm
+fi
 
 # Path for brew
 test -d /usr/local/bin && export PATH="/usr/local/bin:/usr/local/sbin:~/bin:$PATH"

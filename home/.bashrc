@@ -12,3 +12,6 @@ alias gam="git commit -am"
 # Hide and show desktop icons
 alias hd='defaults write com.apple.finder CreateDesktop false; killall Finder'
 alias sd='defaults write com.apple.finder CreateDesktop true; killall Finder'
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
